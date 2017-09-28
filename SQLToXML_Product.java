@@ -10,8 +10,8 @@ public class SQLToXML_Product {
 					new FileOutputStream(file), "UTF-8"));
 			Connection con = DriverManager
 					.getConnection(
-							"jdbc:sqlserver://127.0.0.1:1433;databaseName=EH21_PROD_XINDA",
-							"sa", "1q2w3e4R");
+							"jdbc:sqlserver://127.0.0.1:1433;databaseName=XXX",
+							"sa", "XXX");
 			Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
 					ResultSet.CONCUR_UPDATABLE);
 			ResultSet rs = st
