@@ -12,8 +12,8 @@ public class XMLToSQL_Product {
 		try {
 			con = DriverManager
 					.getConnection(
-							"jdbc:sqlserver://127.0.0.1:1433;databaseName=EH21_PROD_XINDA",
-							"sa", "1q2w3e4R");
+							"jdbc:sqlserver://127.0.0.1:1433;databaseName=XXX",
+							"sa", "XXX");
 			Statement stmt = con.createStatement();
 			DocumentBuilderFactory factory = DocumentBuilderFactory
 					.newInstance();
