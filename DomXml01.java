@@ -5,13 +5,13 @@ import org.w3c.dom.*;
 public class DomXml01 {
 	static String CLMNO, SubType, NumPages, Pages, PageCount;
 	
-    //获取Peihe_CLAIM_20170926_9858.xml TranData/Claim/images/image节点下指定结点值
+    
 	public static void main(String args[]) {
 		try {
 			DocumentBuilderFactory factory = DocumentBuilderFactory
 					.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
-			Document doc = builder.parse("Peihe_CLAIM_20170926_9858.xml");
+			Document doc = builder.parse("XXCLAIM_20170926_9858.xml");
 			NodeList n1 = doc.getElementsByTagName("Image");
 			for (int i = 0; i < n1.getLength(); i++) {
 				Element node = (Element) n1.item(i);
